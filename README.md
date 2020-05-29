@@ -1,4 +1,4 @@
-# manageDirectory
+# managementDirectory
 This is a virtual directory management system create on php and javascript
 
 This library will help you to create directory or fetch directory into your project.
