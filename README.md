@@ -15,41 +15,31 @@ you can manage or you can create your own cpanel using this directory.
 
 # initialization
 **
-<p>kindly add this css into top after bootstrap file</p>
-<samp>
-  <link rel="stylesheet" href="<?= baseUrl ?>/dir_lib/css/style.css">
-  <link rel="stylesheet" href="<?= baseUrl ?>/dir_lib/css/context.css">
+<ul><li>kindly add this css into top after bootstrap file
+  <ul><li> dir_lib/css/style.css </li>
+  <li> dir_lib/css/context.css </li></ul><li></ul>
 
-3. Kindly add this autoload file into top in your project
+<p>Kindly add this autoload file into top in your project</p>
     
-   include_once __DIR__.'/dir_lib/Autoload.php';
+   <code>include_once __DIR__.'/dir_lib/Autoload.php'</code>
   
-2.Next you can only write this things for showing directory or file or folder
+<p>Next you can only write this things for showing directory or file or folder</p>
+  
+  <code> $folder->leftPanel()</code>
 
-  <?php
+<p>for create the new folder or file </p>
   
-    $folder->leftPanel()
-    
-  ?>
-  
-3. for create the new folder or file 
-
-  <?php
-  
-     $folder->callModel(); // function for create a folder
+   <code>$folder->callModel(); // function for create a folder</code>
      
-     $folder->callFileModel(); //function for create a file
-  ?>
+   <code>$folder->callFileModel(); //function for create a file</code>
   
-  4. for delete a folder or file 
-  
-  <?php
-  
-    $folder->confirmBox(); // for delete whole folder or project
+<p>for delete a folder or file </p>
+
+   <code> $folder->confirmBox(); // for delete whole folder or project</code>
     
-    $folder->fileconfirmBox(); // delete only specific file
-  ?>
+   <code>$folder->fileconfirmBox(); // delete only specific file</code>
+ ?>
 
-** kindly add this js into top after jquery file
+<p>** kindly add this js into top after jquery file</p>
 
-<script src="<?= baseUrl ?>/dir_lib/js/foldertree.js"></script></samp>
+<code><script src="/dir_lib/js/foldertree.js"></script></code>
