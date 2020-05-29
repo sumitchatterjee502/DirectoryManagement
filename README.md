@@ -17,14 +17,13 @@ you can manage or you can create your own cpanel using this directory.
 **
 kindly add this css into top after bootstrap file
 
-<link rel="stylesheet" href="<?= baseUrl ?>/dir_lib/css/style.css">
-<link rel="stylesheet" href="<?= baseUrl ?>/dir_lib/css/context.css">
+1.<link rel="stylesheet" href="<?= baseUrl ?>/dir_lib/css/style.css">
+2.<link rel="stylesheet" href="<?= baseUrl ?>/dir_lib/css/context.css">
 
-1. Kindly add this autoload file into top in your project
-    <?php
+3. Kindly add this autoload file into top in your project
     
-       include_once __DIR__.'/dir_lib/Autoload.php';
-    ?>
+   include_once __DIR__.'/dir_lib/Autoload.php';
+  
 2.Next you can only write this things for showing directory or file or folder
 
   <?php
