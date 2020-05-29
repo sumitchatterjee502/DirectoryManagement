@@ -16,10 +16,10 @@ you can manage or you can create your own cpanel using this directory.
 # initialization
 **
 <p>kindly add this css into top after bootstrap file</p>
-<code>
+<samp>
   <link rel="stylesheet" href="<?= baseUrl ?>/dir_lib/css/style.css">
   <link rel="stylesheet" href="<?= baseUrl ?>/dir_lib/css/context.css">
-</code><pre>
+
 3. Kindly add this autoload file into top in your project
     
    include_once __DIR__.'/dir_lib/Autoload.php';
@@ -52,4 +52,4 @@ you can manage or you can create your own cpanel using this directory.
 
 ** kindly add this js into top after jquery file
 
-<script src="<?= baseUrl ?>/dir_lib/js/foldertree.js"></script></pre>
+<script src="<?= baseUrl ?>/dir_lib/js/foldertree.js"></script></samp>
