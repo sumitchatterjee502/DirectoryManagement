@@ -1,0 +1,19 @@
+{
+  "name": "dir_lib",
+  "version": "1.0.0",
+  "description": "This is a virtual directory management system create on php and javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumitchatterjee502/DirectoryManagement.git"
+  },
+  "author": "Sumit Chatterjee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sumitchatterjee502/DirectoryManagement/issues"
+  },
+  "homepage": "https://github.com/sumitchatterjee502/DirectoryManagement#readme"
+}
